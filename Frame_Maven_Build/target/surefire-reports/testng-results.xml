@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30669" started-at="2020-09-14T03:10:28Z" finished-at="2020-09-14T03:10:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30669" started-at="2020-09-14T03:10:28Z" finished-at="2020-09-14T03:10:58Z">
+      <class name="com.rgcb.testcases.RgcbFlow">
+        <test-method status="PASS" signature="setupExcel()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="setupExcel" is-config="true" duration-ms="618" started-at="2020-09-14T03:10:27Z" finished-at="2020-09-14T03:10:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExcel -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="setup" is-config="true" duration-ms="9113" started-at="2020-09-14T03:10:28Z" finished-at="2020-09-14T03:10:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTorgcb()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="loginTorgcb" duration-ms="7997" started-at="2020-09-14T03:10:37Z" finished-at="2020-09-14T03:10:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTorgcb -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="tearDownMethod" is-config="true" duration-ms="335" started-at="2020-09-14T03:10:45Z" finished-at="2020-09-14T03:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTorgcb status=SUCCESS method=RgcbFlow.loginTorgcb()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="writingIndent()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="writingIndent" duration-ms="13140" started-at="2020-09-14T03:10:45Z" depends-on-methods="com.rgcb.testcases.RgcbFlow.loginTorgcb" finished-at="2020-09-14T03:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writingIndent -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="tearDownMethod" is-config="true" duration-ms="63" started-at="2020-09-14T03:10:58Z" finished-at="2020-09-14T03:10:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=writingIndent status=SUCCESS method=RgcbFlow.writingIndent()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-14T03:10:58Z" finished-at="2020-09-14T03:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDownAll()[pri:0, instance:com.rgcb.testcases.RgcbFlow@358ee631]" name="tearDownAll" is-config="true" duration-ms="0" started-at="2020-09-14T03:10:58Z" finished-at="2020-09-14T03:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAll -->
+      </class> <!-- com.rgcb.testcases.RgcbFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
